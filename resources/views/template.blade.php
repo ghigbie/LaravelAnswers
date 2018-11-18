@@ -14,12 +14,8 @@
 
 </head>
 <body>
-
     @include('_includes/nav/topnav')
-
-
-
     @yield('content')
-
+    @include('_includes/footer/footer')
 </body>
 </html>
